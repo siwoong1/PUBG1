@@ -1,0 +1,121 @@
+ /* General styles */
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: #ece1c1;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+/* Navigation styles */
+nav {
+  background-color: #a0522d;
+  color: white;
+  padding: 1rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+/* Header styles */
+header {
+  background-color: #ff8c00;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+.text-3xl{
+  margin: 0 auto;
+  text-align: center;
+}
+.text-xl{
+  text-align: center;
+  vertical-align: middle;
+  display: middle;
+  margin: 0 auto;
+}
+/* Main content styles */
+
+
+main section, main aside {
+  margin-bottom: 1rem;
+}
+
+    
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #ff8c00;
+            color: white;
+            padding: 1rem;
+        }
+    
+        .card {
+            width: 250px;
+            height: 520px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 0.5rem;
+        }
+        .card-header {
+            background-color: #f0f0f0;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 0.5rem;
+        }
+        .card-content {
+            padding-top: 0.1rem;
+        }
+        body {
+          margin: 0;
+          font-family: Arial, sans-serif;
+      }
+      header {
+          background-color: #ff8c00;
+          color: white;
+          padding: 1rem;
+      }
+
+      .mb-4 {
+        display: flex;
+        justify-content: center;
+        padding-top: 0.1rem;
+      }
+
+      .card {
+          display: inline-block;
+          width: 300px;
+          height: 300px;
+          background-color: #deae6e;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          padding: 0.5rem;
+      }
+      .card-header {
+          background-color: #cbbd92;
+          border-bottom: 1px solid #f1f3ec;
+          padding-bottom: 0.5rem;
+      }
+      .card-content {
+          padding-top: 0.5rem;
+      }
+      
+      .card-footer {
+        clear: both;
+      }
+  
+    

@@ -1,0 +1,35 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="{% static 'bootstrap.min.css' %}">
+    <!-- pybo CSS -->
+    <link rel="stylesheet" type="text/css" href="{% static 'index2.css' %}">
+    <title>Hello, PUBG!</title>
+</head>
+<body>
+<div class="slider">
+    <input type="radio" name="slide" id="slide1" checked>
+    <input type="radio" name="slide" id="slide2">
+    <input type="radio" name="slide" id="slide3">
+    <input type="radio" name="slide" id="slide4">
+    <ul id="imgholder" class="imgs">
+        <li><img src="{% static 'images/개요1.jpg' %}"></li>
+        <li><img src="{% static 'images/개요2.png' %}"></li>
+        <li><img src="{% static 'images/개요3.png' %}"></li>
+        <li><img src="{% static 'images/개요4.png' %}"></li>
+    </ul>
+    <div class="bullets">
+        <label for="slide1">&nbsp;</label>
+        <label for="slide2">&nbsp;</label>
+        <label for="slide3">&nbsp;</label>
+        <label for="slide4">&nbsp;</label>
+    </div>
+</div>
+</body>
+<footer><p class="footer"><a href="{% url 'pybo:question_list' %}">뒤로가기</a></p></footer>
+</html>

@@ -1,0 +1,53 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: linear-gradient(to right, #a52a2a, #8b4513, #a52a2a);
+    padding: 16px;
+  }
+  .body{
+    background-image: linear-gradient(to right, #ffd700, #ffa500, #ffd700);
+}
+  .card {
+
+    background-image: url("./images/개요.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 900px;
+    height:700px;
+    margin: 0 auto;
+   /* overflow: hidden;*/
+    /*box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);*/
+    border-radius: 0.5rem;
+  }
+  
+  .card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem;
+    color: #000;
+  }
+  
+  .card-content {
+    padding: 1.5rem;
+  }
+  
+  .scroll-area {
+    height: 18rem;
+    width: 100%;
+    max-width: 24rem;
+    border-radius: 0.5rem;
+    border: 1px solid #000;
+  }
+  
+  .scroll-area-content {
+    padding: 1rem;
+  }
+  
+  .text-gray-600 {
+    color: #666;
+  }
